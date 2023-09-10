@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbd8d8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.block {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+input[type="number"] {
+    width: 150px;
+    padding: 5px;
+    margin-right: 10px;
+    border-color: darkslateblue;
+    border-radius: 10px;
+    height: 25px;
+
+}
+
+.btn-gradient {
+    background: linear-gradient(253.58deg, #6681ea 1.55%, #7e43aa 66.84%);
+    position: relative;
+    padding: 12px 25px;
+    z-index: 10;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-gradient:after {
+    background: linear-gradient(253.58deg, #7e43aa 1.55%, #6681ea 66.84%);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -10;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+
+.btn-gradient:hover:after {
+    opacity: 1;
+}
+
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+#main {
+    background: linear-gradient(253.58deg, #17EAD9 1.55%, #6078EA 66.84%);
+    position: relative;
+    padding: 12px 25px;
+    z-index: 10;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+
+#main:after {
+    background: linear-gradient(253.58deg, #6078EA 1.55%, #17EAD9 66.84%);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -10;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+
+#main:hover:after {
+    opacity: 1;
+}
+
+
+footer {
+
+    
+    text-align: start;
+
+
+
+}
+
+
+
+
+.linkedin {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 29px;
+
+}
+
+.github {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 29px;
+
+
+}
+
+.twitter {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    width: 29px;
+
+}
+
+.insta {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    width: 29px;
+
+}
+
+.contact {
+    height: 15px;
+    text-align: center;
+    padding: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact img {
+    width: 30px;
+    height: 28px;
+}
