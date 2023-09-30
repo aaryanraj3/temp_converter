@@ -39,8 +39,8 @@ input[type="number"] {
     text-decoration: none;
     border-radius: 10px;
     border: none;
+    transition: all ease 0.5s;
 }
-
 .btn-gradient:after {
     background: linear-gradient(253.58deg, #7e43aa 1.55%, #6681ea 66.84%);
     content: '';
@@ -58,6 +58,9 @@ input[type="number"] {
 
 .btn-gradient:hover:after {
     opacity: 1;
+}
+button:active{
+    scale: 0.89;
 }
 
 
@@ -103,12 +106,7 @@ p {
 
 
 footer {
-
-    
-    text-align: start;
-
-
-
+ text-align: start;
 }
 
 
